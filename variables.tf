@@ -75,5 +75,5 @@ variable "ec2_aws" {
 variable "rds_aws" {
  description = "Allow for the creation of a PostgreSQL database on AWS"
   type        = bool
-  default     = true
+  default     = false
 }
